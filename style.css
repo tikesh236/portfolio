@@ -1,0 +1,118 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    padding: 3px;
+  border-bottom: 2px solid goldenrod;
+}
+#page{
+     display: flex;
+     height: 100vh;
+     width: 100%; 
+}
+#page1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    
+}
+#page11{
+    margin: 150px ;
+    line-height: 30px;
+
+}
+#page11 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    line-height: 60px;
+}
+span{
+    color: blueviolet;
+}
+#page11 p{
+  padding: 20px;
+}
+ img{
+    height: 50%;
+    width: 50%;
+   position: relative;
+   border-radius: 50%;
+   
+}
+#page2{
+    position: absolute;
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    top: 20%;
+    left: 30%;
+}
+#links{
+    font-size: 40px;
+    gap: 40px;
+}
+.ri-github-fill:hover{
+    font-size: 50px;
+    color: blueviolet;
+}
+.ri-instagram-fill:hover{
+    font-size: 50px;
+    color: blueviolet;
+} 
+.ri-facebook-fill:hover{
+    font-size: 50px;
+    color: blueviolet;
+}
+.ri-linkedin-fill:hover{
+    font-size: 50px;
+    color: blueviolet;
+}
+.buttuns{
+    position: relative;
+    top: 40px;
+    display: flex;
+    gap: 30px;
+
+}
+
+
+.buttuns button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.buttuns button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(104, 46, 159);
+}
+
